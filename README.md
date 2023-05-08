@@ -96,12 +96,12 @@ Describe what your spring simulation will look like. Explain how it will be setu
 
 The setup is a random number of Orbs scattered on the screen. The springs will be attached by a line and it should be similar to what we've already coded. The springs should compress and expand based on how other springs act. 
 
-### Simulation 3: Force 0
+### Simulation 3: Jet Engine Force
 Describe what your Force 0 simulation will look like. Explain how it will be setup, and how it should behave while running.
 
 The setup is Orbs lined up on the very left of the screen from top to bottom. They should have different types of Engine objects attached to them and they should have different angles. When the jet is turned on, they should accelerate at different rates based on their variables. There should be a fading trail that follows them. 
 
-### Simulation 4: Force 1
+### Simulation 4: Magnetic Force 
 Describe what your Force 1 simulation will look like. Explain how it will be setup, and how it should behave while running.
 
 The setup would be a bunch of Orbs randomly placed throughout the screen with a giant magnet one side of the screen. When the key is pressed, the magnet should start attracting the Orbs and the Earth's magnetic field starts to affect each Orb. When the key is pressed again the magnet should stop pulling the Orbs. 
