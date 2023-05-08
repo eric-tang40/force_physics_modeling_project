@@ -79,6 +79,7 @@ F = qvB. Where q is the charge of the object, v is a vector with velocity and di
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
   - Each Orb object needs an int instance variable to calculate how many electrons it has, calculated based on its mass.
+  - I need to add a getMagnet method to return a PVector of the force.
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
   - Technically every object has a magnetic field, but I might not make it interact with other Orbs. If I do, then it will interact similar to the spring force, but every Orb will exert a force on every other Orb, regardless of whether or not they are neighbors. 
