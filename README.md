@@ -59,6 +59,8 @@ F = mv + A ( P1 + P2). Where m is the mass of the gas ejected per unit of time, 
   - The formula above will calculate the magnitude of the force while the angle of the Orb (instance variable) is the direction. I have to put together the magnitude and angle to return a final PVector. 
   - Not every Orb has the force so I have to check using the boolean instance variable whether it is applicable or not. 
 
+
+
 #### Custom Force 1: Magnetic Force 
 
 ### Forumla 1
