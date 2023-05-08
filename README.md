@@ -29,7 +29,7 @@ All projects will require the following:
 
 ## Phase 0: Force Selection, Analysis & Plan
 
-#### Custom Force 0: Jet Engine Propulsion/Thrusat
+#### Custom Force 0: Jet Engine Propulsion/Thrust
 
 ### Forumla 0
 What is the formula for your force? Including descirptions/definitions for the symbols. You may include a picure of the formula if it is not easily typed.
