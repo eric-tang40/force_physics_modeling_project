@@ -9,6 +9,12 @@ class FixedOrb extends OrbNode {
     super(x, y, s, m);
     c = initColor;
   }//constructor
+  
+  FixedOrb(int x, int y, int s, float m, color initColor, float initMag) {
+    super(x, y, s, m);
+    c = initColor;
+    magnetism = initMag;
+  }//constructor
 
   //fixed orbs do not move at all
   void run(boolean bounce, float damp) {
