@@ -29,7 +29,7 @@ Explain what each of your simulations do, and what should appear when running th
 
 **Simulation 1: Earth Gravity:** This simulation has 5 orbs: 4 are planets (mercury, earth, mars, and saturn) and one sun. The planets are moving orbs and the sun is fixed. Only the sun exerts gravity; there is no mutual attraction. The orbs are sized appropriately, should leave fading trails behind as they move, sould never cross orbits, and should remain in orbit indefinitely. 
 
-**Simulation 2: Springs:**
+**Simulation 2: Springs:** This simulation has 9 orbs, 7 which are free to move and 2 black orbs that are fixed. These two fixed orbs are at the front and back of the row of orbs. The program should not be able to move the fixed orbs and the lines that represent the springs change color as they compress/decompress. 
 
 **Simulation 3: Jet Force:** This simulation begins with 8 orbs on the bottom of the screen. When ran, all of the orbs accelerate __up__ at different speeds and angles (representing fast and slow jets). Bounce is turned __on__. All of the orbs have a gas tank, and when they run out of gas, they no longer feel jet force BUT they keep their current velocities. Also, a red message saying "Out of Gas" will appear above the orb. The orbs leave behind fading trails as they move, but the trail disappears when the orbs run out of gas. 
 
@@ -42,7 +42,8 @@ Explain what each of your simulations do, and what should appear when running th
 - Magnetic Force 
 
 Spring Force is __NOT__ included. The sun's gravitational pull is abnormally strong in this simulation, and the "goal" of each orb is to escape the sun's orbit. The only way the orb can do this is to get very close to one of the magnets, otherwise the sun's gravity will overpower the magnetic force. Orbs will use jet force to try to reach the magnets, but they only have a set amount of fuel. Once the fuel runs out, if they are still stuck in the sun's orbit, they should not be able to leave. If they reach a magnet, they will accelerate rapidly and never be seen again. Each orb has randomized starting speeds, engines, masses, etc. that make each trial different.    
-From my trials, orbs will be immediately be attracted to the sun, but begin to accelerate towards the magnets as jet force gets stronger. About 2-3 orbs "escape" the sun's orbit while the other 2-3 typically don't. 
+From my trials, orbs will be immediately be attracted to the sun, but begin to accelerate towards the magnets as jet force gets stronger. About 2-3 orbs "escape" the sun's orbit while the other 2-3 typically don't.   
+In some cases, orbs that have escaped the sun's orbit will reappear on the screen, but they should no longer be in orbit. 
 
 ---
 
